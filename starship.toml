@@ -14,7 +14,6 @@ disabled = true
 disabled = true
 
 [git_branch]
-symbol = " "
 style = "italic white"
 format = '[$symbol$branch]($style) '
 
@@ -29,7 +28,7 @@ disabled = true
 
 [directory]
 truncation_length = 3
-truncation_symbol = "…/"
+truncation_symbol = "../"
 
 
 [battery]
