@@ -6,4 +6,7 @@
 !README.md
 !starship.toml
 !yazi/
+!yazi/**
+
 !fish/
+!fish/**

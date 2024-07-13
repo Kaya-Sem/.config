@@ -39,3 +39,6 @@ style = "bold red"
 
 [python]
 disabled = true
+
+[cmd_duration]
+disabled = true
