@@ -4,3 +4,4 @@
 # Allow specific files and directories
 !.gitignore
 !README.md
+!starship.toml
