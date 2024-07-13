@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+# Allow specific files and directories
+!.gitignore
+!README.md
