@@ -3,20 +3,29 @@
 
 add_newline = true
 
+[line_break]
+disabled = true
 
 
 [character]
-success_symbol = '[ ](bold green)'
+disabled = true
 
 [package]
 disabled = true
 
-[git_commit]
-commit_hash_length = 8
-style = "bold white"
+[git_branch]
+symbol = " "
+style = "italic white"
+format = '[$symbol$branch]($style) '
+
+[git_metrics]
+disabled = false
 
 [git_state]
 format = '[\($state( $progress_current of $progress_total)\)]($style) '
+
+[git_status]
+disabled = true
 
 [directory]
 truncation_length = 3
@@ -24,14 +33,10 @@ truncation_symbol = "…/"
 
 
 [battery]
-full_symbol = "🔋"
-charging_symbol = "⚡️"
 discharging_symbol = "⚡️"
-#shows when battery below threshold
-# "bold red" style when capacity is between 0% and 10%
 [[battery.display]]
 threshold = 10
 style = "bold red"
 
 [python]
-pyenv_version_name = false
+disabled = true
