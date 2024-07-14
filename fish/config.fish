@@ -3,6 +3,7 @@ if status is-interactive
 end
 
 alias v=nvim
+alias cat=bat
 
 function ls
     clear
