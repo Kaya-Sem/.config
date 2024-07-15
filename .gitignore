@@ -10,3 +10,6 @@
 
 !fish/
 !fish/**
+
+!ncspot/
+!ncspot/**
