@@ -38,5 +38,8 @@ style = "bold red"
 [python]
 disabled = true
 
+[java]
+disabled = true
+
 [cmd_duration]
 disabled = true

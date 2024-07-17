@@ -11,5 +11,9 @@ function ls
 end
 
 
+
+set -gx PATH $PATH ~/flutter/bin
+set PATH $PATH /home/kayasem/.local/bin
+
 zoxide init fish | source
 starship init fish | source
