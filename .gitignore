@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !starship.toml
+
 !yazi/
 !yazi/**
 
@@ -13,3 +14,6 @@
 
 !ncspot/
 !ncspot/**
+
+!btop/
+!btop/**
