@@ -38,6 +38,9 @@ style = "bold red"
 [python]
 disabled = true
 
+[lua]
+disabled = true
+
 [java]
 disabled = true
 
