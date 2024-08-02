@@ -14,6 +14,8 @@ end
 
 set -gx PATH $PATH ~/flutter/bin
 set PATH $PATH /home/kayasem/.local/bin
+set -x GOPATH $HOME/go
+set -x PATH $PATH $GOPATH/bin
 
 zoxide init fish | source
 starship init fish | source
