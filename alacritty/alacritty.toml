@@ -1,0 +1,26 @@
+[font]
+normal = {family = "Fira Code", style = "Medium"}
+size = 17
+
+[cursor]
+style = { shape = "Beam", blinking = "On"}
+unfocused_hollow = true
+
+[colors]
+
+[colors.primary]
+background = "#1B1B1F"
+
+[colors.normal]
+blue= "#9575e0" # set blue to purple
+cyan= "#ffffff" # white
+
+[window]
+decorations = "None"
+startup_mode = "Windowed"
+dynamic_title = true
+padding = {x = 3}
+opacity = 0.9
+
+[selection]
+save_to_clipboard = true
