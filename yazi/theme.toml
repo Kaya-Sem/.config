@@ -1,0 +1,19 @@
+[manager]
+border_symbol = " "
+
+[status]
+permissions_t = {hidden = true}
+permissions_r = {hidden = true}
+permissions_w = {hidden = true}
+permissions_x = {hidden = true}
+permissions_s = {hidden = true}
+
+#mode_normal = {hidden = true}
+
+separator_open = " "
+separator_style = {hidden=true}
+
+progress_label = {hidden = true}
+
+
+

@@ -1,0 +1,28 @@
+# https://yazi-rs.github.io/docs/configuration/yazi
+
+[manager]
+ratio = [1,2,3]
+scrolloff = 200
+show_symlink = true
+
+mouse_events = ["move", "drag", "click", "scroll", "touch"]
+
+# sorting
+sort_translit = true
+sort_sensitive = false
+sort_dir_first = true
+sort_by = "natural"
+
+[opener]
+edit = [
+	{ run = 'nvim "$@"', block = true },
+]
+
+open = [{ run = 'evince "$@"', desc = "Open" }]
+
+[open]
+prepend_rules = [
+    { name = "*.md", use = "edit" },
+    { name = "*.pdf", use = "open" },
+]
+
